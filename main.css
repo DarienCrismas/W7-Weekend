@@ -1,0 +1,96 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+    /* border: 1px solid red; */
+    
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #cfedfd, #cfe5ff, #d7dbfc, #e3cff3, #f0c4e3, #f7bbd5, #fcb2c4, #feabb1, #ffa1a1, #ff998f, #fd917b, #f98a67);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.centered{
+    margin-top: 15vh;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #505050;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+#userZip{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #505050;
+}
+
+input{
+    border-radius: 10px;
+    padding: 1vh 5vw;
+    margin-bottom: 5px;
+}
+
+#search{
+    background-color: #cfedfd;
+    color: #505050;
+    font-weight: 600;
+    width: 10vw;
+    line-height: 2;
+    border-radius: 10px;
+    padding: .2vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    border: 2px solid white;
+}
+
+/* Forecast Card Stuff */
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.list-group{
+    width: fit-content;
+    margin: auto;
+    list-style: none;
+}
+
+.grid-item{
+    font-size: 5vh;
+    border-radius: 3vh;
+    margin-bottom: 1px;
+    margin: .5vw;
+    padding: 1.5vw;
+    background-color:rgba(255,255,255, 0.4); 
+}
+
+#high{
+    color: #814141;
+}
+#low{
+    color: #414181;
+}
+
+button{
+    background-color: #cfedfd;
+    color: #505050;
+    font-weight: 600;
+    font-size: large;
+    line-height: 2;
+    width: 20vw;
+    border-radius: 10px;
+    padding: .5vh;
+    border: 2px solid white;
+}
